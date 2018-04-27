@@ -8,8 +8,7 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.TextView;
 
-public class SicaActivity extends AppCompatActivity {
-
+public class FriendzoneActivity extends AppCompatActivity {
     private int counter = 0;
     private int pointCurrent = 0;
     private RadioButton opOne;
@@ -20,8 +19,8 @@ public class SicaActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.game_sica_friendzone);
-        final String [] questionsSica = getResources().getStringArray(R.array.list_question_sica);
-        final String [] answersSica = getResources().getStringArray(R.array.list_answer_sica);
+        final String [] questionsFriend = getResources().getStringArray(R.array.list_question_friend);
+        final String [] answersFriend = getResources().getStringArray(R.array.list_answer_friend);
         final TextView textQuestion = findViewById(R.id.text_question);
         opOne = findViewById(R.id.answer_one);
         opTwo = findViewById(R.id.answer_two);
@@ -29,8 +28,8 @@ public class SicaActivity extends AppCompatActivity {
         opFour = findViewById(R.id.answer_four);
         Button btnNext = findViewById(R.id.btn_send_sica);
 
-        String [] tempAnswers = answersSica[counter].split("-");
-        textQuestion.setText(questionsSica[counter]);
+        String [] tempAnswers = answersFriend[counter].split("-");
+        textQuestion.setText(questionsFriend[counter]);
         opOne.setText(tempAnswers[0]);
         opTwo.setText(tempAnswers[1]);
         opThree.setText(tempAnswers[2]);
@@ -42,14 +41,14 @@ public class SicaActivity extends AppCompatActivity {
                 pointCurrent += getPoint();
                 if (counter < 5){
                     counter++;
-                    textQuestion.setText(questionsSica[counter]);
-                    String [] temp = answersSica[counter].split("-");
+                    textQuestion.setText(questionsFriend[counter]);
+                    String [] temp = answersFriend[counter].split("-");
                     opOne.setText(temp[0]);
                     opTwo.setText(temp[1]);
                     opThree.setText(temp[2]);
                     opFour.setText(temp[3]);
                 }else {
-                    Intent i = new Intent(SicaActivity.this, ResultActivity.class);
+                    Intent i = new Intent(FriendzoneActivity.this, ResultActivity.class);
                     i.putExtra("puntaje", String.valueOf(pointCurrent));
                     startActivity(i);
                     finish();

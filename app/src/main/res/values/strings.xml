@@ -6,14 +6,37 @@
     <string name="one_year">1 AÑO</string>
     <string name="three_year">3 AÑOS</string>
     <string name="send">enviar</string>
+    <string name="ok">entendido :(:</string>
+    <string name="text_one">Estas totalmente infectado del virus sica Sindrome de Inmensa Camoteria
+        Adquirida, los sintomas que seguramente tienes son: Ojos de borrego degollado, sudoracion en
+        las manos, pies, orejas y demas. Tembladera cuando ves a esa persona necesitas cada vez un
+        babero mas grande. Mas de seis materias aplazadas tambien vale.</string>
+    <string name="text_two">Potencialmente expuesto al Virus del SICA, suele presentarse pequeños tartamudeos
+        y ganas de ir al baño y fuertes dolores en la billetera cada vez que la ves.</string>
+    <string name="text_three">Frecuentes intervalo de sentir mariposas en el estomago y hambre. Sientes
+        extrañas ganas de bañarte cuando la ves y luego se te quitan esas ganas inmediatamente si ves un
+        playstation. Indecision total.</string>
+    <string name="text_four">Vacunado completamente. Ver a esa persona especial o ver un cactus es lo
+        mismo para ti. Pero no te preocupes, algun dia te enamoraras de verdad asi que anda ahorrando
+        porque sale caro.</string>
+
 
     <string-array name="list_question_sica">
-        <item>Que sientes cuando ves a esa persona?</item>
-        <item>Que te atrae de esa persona?</item>
-        <item>Que le dedicarias a esa persona?</item>
-        <item>Que haces cuaando estas solo?</item>
-        <item>Que pasa si te toca estudiar con esa persona en el mismo aula de clases?</item>
-        <item>Tratas de averiguar todo sobre esa persona?</item>
+        <item>1) Que sientes cuando ves a esa persona?</item>
+        <item>2) Que te atrae de esa persona?</item>
+        <item>3) Que le dedicarias a esa persona?</item>
+        <item>4) Que haces cuaando estas solo?</item>
+        <item>5) Que pasa si te toca estudiar con esa persona en el mismo aula de clases?</item>
+        <item>6) Tratas de averiguar todo sobre esa persona?</item>
+    </string-array>
+
+    <string-array name="list_question_friend">
+        <item>1) Que sientes cuando tu crush te habla acerca de alguien que le gusta?</item>
+        <item>2) Te pide favores todo el tiempo?</item>
+        <item>3) Te pone apodos amistosos?</item>
+        <item>4) Se siente comodo(a) cerca de ti?</item>
+        <item>5) Estas al tanto de sus publicaciones de el/ella?</item>
+        <item>6) Cuando salen juntos quien paga?</item>
     </string-array>
 
     <string-array name="list_answer_sica">
@@ -52,6 +75,45 @@
             b) Solo lo intento de Lunes a Sabado. El domingo es un dia para la revision semanal de Muro de FB.-
             c) Me conozco todo su vida. Cuando su mamá se olvida de su cumpleaños suele llamarme.-
             d) Me acabo de enterar algunas cosas de ella, pretendo presentarsela al novio de mi hermana.
+        </item>
+    </string-array>
+
+    <string-array name="list_answer_friend">
+        <item>
+            a) Me siento mas furioso que Toreto en Rapidos y Furiosos en medio de una carrera.-
+            b) Siento que se me va a salir el campeon mundial en boxeo que llevo dentro.-
+            c) Todos creen que tengo problemas con el cuello porque por mas de que este hablando con mis amigos volteo a verla.-
+            d) Siento un escosor en la garganta debo de ir a comer mas seguido.
+        </item>
+        <item>
+            a) Te pide mas favores que a la Rosa de Guadalupe, en todos sus capitulos, y no hay tal rosa, eres tu quien hace todo.-
+            b) Te pide tantos favores amorosos, de vestir y musica que ya pareces su terapeuta.-
+            c) Te pide tantos favores que ya perdiste la cuenta de cuantas veces no te dijo gracias.-
+            d) Te pide favores que ni a su mejor amigo pediria.
+        </item>
+        <item>
+            a) Nose que seria de mi sin ti mi hermanito.-
+            b) Eres mi colega, mi mejor amigo.-
+            c) Siempre seras mi amigo, siempre.-
+            d) Eres la unica persona en quien confio.
+        </item>
+        <item>
+            a) Te abraza, te besa sin sentir nerviosismo, el unico emocionado eres tu.-
+            b) Te dice algo sin censurarse, o preguntarse como luce.-
+            c) No hace el esfuerzo de vestirse muy bien cuando sale contigo.-
+            d) Te da empujoncitos, sin medir su fuerza y sin importarle nada te grita.
+        </item>
+        <item>
+            a) Eres el/la unica que le da like minutos despues que lo publica en su FB.-
+            b) Eres quien le da me encanta con mas amor y azucar que Celia Cruz.-
+            c) Eres quien esta atento a cada foto con algun chico(a) que publico y lo investigas.-
+            d) Si alguien la etiqueta en una publicacion averiguas quienes son sus amigos.
+        </item>
+        <item>
+            a) Eres mas menso que Ludovico Peluche que terminas pagando cada cosa que quiere.-
+            b) No te importa gastar todo tu dinero para la semana.-
+            c) Pagas con tanta emocion que olvidas que tenias que pagar la luz y el agua.-
+            d) Lo que sea por esa linda carita.
         </item>
     </string-array>
 </resources>

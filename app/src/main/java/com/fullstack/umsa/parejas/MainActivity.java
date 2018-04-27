@@ -16,7 +16,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         Button btnSica = findViewById(R.id.btn_sica);
+        Button btnFriend = findViewById(R.id.btn_friendzone);
+        Button btnOne = findViewById(R.id.btn_one_year);
+        Button btnThree = findViewById(R.id.btn_three_year);
+
         btnSica.setOnClickListener(this);
+        btnFriend.setOnClickListener(this);
+        btnOne.setOnClickListener(this);
+        btnThree.setOnClickListener(this);
     }
 
     @Override
@@ -28,7 +35,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 finish();
                 break;
             case R.id.btn_friendzone:
-                Toast.makeText(this, "Falta preguntas", Toast.LENGTH_SHORT).show();
+                Intent a = new Intent(this, FriendzoneActivity.class);
+                startActivity(a);
+                finish();
                 break;
             case R.id.btn_one_year:
                 Toast.makeText(this, "En desarrollo", Toast.LENGTH_SHORT).show();
